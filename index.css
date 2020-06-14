@@ -27,9 +27,6 @@ a:hover span {
 	color: white;
 }
 
-/*img {
-	position: center;
-}*/
 
 .navpic {
 	width: 30px;
@@ -47,15 +44,6 @@ a:hover span {
 	padding: 5px;
 }
 
-/*.image {
-	height: 10em;
-	/*width: 10em;*/
-	/*border: 20px;*/
-	/*background: url(Picture1.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-}*/
 
 .second {
 	background-color: #660033;
