@@ -1,3 +1,9 @@
+/* ==================================================================================== */
+
+hr {
+  border-top: 1px solid white;
+}
+
 .dropdown-menu {
   background-color: black;
   color: white;
@@ -41,7 +47,10 @@ a:hover span {
 .first {
   background-color: #330066;
   color: white;
-  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Professional Experience */
@@ -90,4 +99,6 @@ a:hover span {
 .seventh {
   background-color: black;
   color: white;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
