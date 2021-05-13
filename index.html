@@ -9,7 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="CS Undergrad. Web developer. Coder." />
+    <meta name="description" content="Web dev enthusiast. Coder." />
     <meta
       property="og:image"
       itemprop="image"
@@ -30,80 +30,161 @@
 
     <!-- AOS - Animation On Scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Animate.style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
 
   <body>
-    <div class="first">
-      <div class="container" data-aos="zoom-in">
-        <div class="row align-items-center">
-          <div class="col-sm-2 text-center">
-            <!-- Image -->
+    <button
+      style="--animate-duration: 10s"
+      class="btn btn-primary rounded animate__animated animate__shakeY animate__infinite"
+      onclick="topFunction()"
+      id="myBtn"
+      title="Go to top"
+    >
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <div class="first-bg">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">EXPERIENCE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">EDUCATION</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#achievements">ACHIEVEMENTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#personal">PERSONAL DETAILS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="first d-flex align-items-center">
+        <div class="d-none d-md-block text-center container">
+          <h1
+            style="--animate-duration: 5s"
+            class="animate__animated animate__headShake animate__infinite"
+            id="hello"
+          >
+            <strong>Hello</strong>
             <img
-              class="rounded-pill img-fluid"
-              src="Picture1.jpg"
-              height="160px"
-              width="190px"
+              style="height: 2em"
+              src="img/man_raising_hand.gif"
+              alt="waving_hand"
             />
-          </div>
-          <div class="col-sm-10">
-            <h1 class="display-4 text-center">
-              <strong>MOHAMMAD SHADMAN</strong>
-            </h1>
-            <h5 class="text-center">
-              <a href="mailto:mdshadmanin99@gmail.com"
-                ><i class="far fa-envelope"> mdshadmanin99@gmail.com</i>
-              </a>
-            </h5>
-            <h5 class="text-center">
-              <a href="https://github.com/shadmanmd"
-                ><i class="fab fa-github"></i></a
-              >&ensp;
-              <a href="https://www.linkedin.com/in/mohammad-shadman-005729151"
-                ><i class="fab fa-linkedin-in"></i></a
-              >&ensp;
-              <a href="https://twitter.com/shadmanMd_in"
-                ><i class="fab fa-twitter"></i></a
-              >&ensp;
-              <a href="https://www.facebook.com/shadmanmd.in"
-                ><i class="fab fa-facebook-f"></i></a
-              >&ensp;
-              <a href="https://www.instagram.com/shadmanmd.in/"
-                ><i class="fab fa-instagram"></i></a
-              >&ensp;
-            </h5>
-          </div>
+          </h1>
+          <h1
+            class="animate__animated animate__fadeInLeft"
+            id="hello"
+            style="text-shadow: 2px 2px #ffffff"
+          >
+            I'm Mohammad Shadman
+          </h1>
+          <small
+            style="display: inline-block; --animate-duration: 5s"
+            class="animate__animated animate__heartBeat animate__infinite"
+            >Scroll or use the navbar.</small
+          >
+        </div>
+        <div
+          class="d-sm-block d-xs-block d-md-none text-center container screen pb-5"
+        >
+          <h1
+            style="--animate-duration: 5s"
+            class="animate__animated animate__headShake animate__infinite"
+            id="hello"
+          >
+            <strong>Hello</strong>
+            <img
+              style="height: 2em"
+              src="img/man_raising_hand.gif"
+              alt="waving_hand"
+            />
+          </h1>
+          <h1 class="animate__animated animate__fadeInLeft" id="hello">
+            I'm Mohammad Shadman
+          </h1>
+          <small
+            style="display: inline-block; --animate-duration: 5s"
+            class="animate__animated animate__heartBeat animate__infinite"
+            >Scroll or use the navbar.</small
+          >
         </div>
       </div>
     </div>
 
     <!-- Professional Experience -->
-    <div class="experience">
+    <div class="odd pt-3 pb-3" id="experience">
       <div class="container" data-aos="zoom-out">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-laptop"></i> Professional Experience
+          <img style="height: 3em" src="img/nerd_face.gif" alt="nerd_face" />
+          Experience
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 p-2">
-              <h5><strong>Mar 2021 - Apr 2021</strong></h5>
-              <h5>
-                <strong><em>Tata Consultancy Services</em></strong>
-              </h5>
-              <h6>Project Intern</h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Mar 2021 - Apr 2021</h5>
+                  <h5 class="card-subtitle text-muted">
+                    Tata Consultancy Services
+                  </h5>
+                  <p class="card-text">Project Intern</p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 p-2">
-              <h5><strong>Jul 2020 - Aug 2020</strong></h5>
-              <h5>
-                <strong><em>Tata Consultancy Services</em></strong>
-              </h5>
-              <h6>
-                Intern &ensp;<a
-                  href="https://drive.google.com/file/d/11OcPQ7BUw6GedH2FaRdsI55Pyc2Nz-84/view?usp=drivesdk"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Jul 2021 - Aug 2021</h5>
+                  <h5 class="card-subtitle text-muted">
+                    Tata Consultancy Services
+                  </h5>
+                  <p class="card-text">Intern</p>
+                  <a
+                    class="btn btn-sm btn-outline-primary"
+                    href="https://drive.google.com/file/d/11OcPQ7BUw6GedH2FaRdsI55Pyc2Nz-84/view?usp=drivesdk"
+                    >View Certificate</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -111,42 +192,68 @@
     </div>
 
     <!-- Educational Background -->
-    <div class="second">
+    <div class="even pt-3 pb-3" id="education">
       <div class="container" data-aos="zoom-in">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-graduation-cap"></i> Educational Background
+          <img
+            style="height: 3em"
+            src="img/writing_hand.gif"
+            alt="writing_hand"
+          />
+          Education
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-4 p-2">
-              <h5><strong>2017 - present</strong></h5>
-              <h5>
-                <strong><em>Asansol Engineering College</em></strong>
-              </h5>
-              <h5><em>B.Tech. (Computer Science & Engineering)</em></h5>
-              <h6>8.6 CGPA</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">2017 - present</h5>
+                  <h5 class="card-subtitle text-muted">
+                    Asansol Engineering College <small>Asansol</small>
+                  </h5>
+                  <p class="card-text">
+                    B.Tech. (Computer Science & Engineering) <br />
+                    <small>8.6 CGPA</small>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>2017</strong></h5>
-              <h5>
-                <strong><em>Burnpur Riverside School, Chittaranjan</em></strong>
-              </h5>
-              <h5><em>CBSE XII</em></h5>
-              <h6>86.4%</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">2017</h5>
+                  <h5 class="card-subtitle text-muted">
+                    Burnpur Riverside School <small>Chittaranjan</small>
+                  </h5>
+                  <p class="card-text">
+                    CBSE XII <br />
+                    <small>86.4%</small>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>2015</strong></h5>
-              <h5>
-                <strong
-                  ><em
-                    >St Joseph's Convent High School, Chittaranjan</em
-                  ></strong
-                >
-              </h5>
-              <h5><em>ICSE X</em></h5>
-              <h6>93.0%</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">2015</h5>
+                  <h5 class="card-subtitle text-muted">
+                    St Joseph's Convent High School <small>Chittaranjan</small>
+                  </h5>
+                  <p class="card-text">
+                    ICSE X <br />
+                    <small>93.0%</small>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -154,37 +261,69 @@
     </div>
 
     <!-- Technical Skills -->
-    <div class="third">
+    <div class="odd pt-3 pb-3" id="skills">
       <div class="container" data-aos="zoom-out">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-cogs"></i> Technical Skills
+          <img
+            style="height: 3em"
+            src="img/man_juggling.gif"
+            alt="man_juggling"
+          />
+          Skills
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-4 p-2">
-              <h5><strong>Web Development</strong></h5>
-              <h6>- HTML</h6>
-              <h6>- CSS</h6>
-              <h6>- JavaScript</h6>
-              <h6>- Flask</h6>
-              <h6>- ReactJS</h6>
-              <h6>- NodeJS</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">
+                    - HTML <br />
+                    - CSS <br />
+                    - JavaScript <br />
+                    - Flask <br />
+                    - ReactJS <br />
+                    - NodeJS <br />
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>Programming</strong></h5>
-              <h6>- Python</h6>
-              <h6>- Java</h6>
-              <h6>- C</h6>
-              <h6>- MySQL</h6>
-              <h6>- MongoDB</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Programming</h5>
+                  <p class="card-text">
+                    - Python <br />
+                    - Java <br />
+                    - C <br />
+                    - MySQL <br />
+                    - PostgreSQL <br />
+                    - MongoDB <br />
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>Subjects</strong></h5>
-              <h6>- Data Structures</h6>
-              <h6>- DBMS</h6>
-              <h6>- OOP</h6>
+            <div class="col-sm-4 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Subjects</h5>
+                  <p class="card-text">
+                    - Data Structures <br />
+                    - DBMS <br />
+                    - OOP <br />
+                    - Algorithms <br />
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -192,50 +331,59 @@
     </div>
 
     <!-- Projects -->
-    <div class="fourth">
+    <div class="even pt-3 pb-3" id="projects">
       <div class="container" data-aos="zoom-in">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-mouse-pointer"></i> Projects
+          <img style="height: 3em" src="img/light_bulb.gif" alt="light_bulb" />
+          Projects
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 p-2">
-              <h5>
-                MedsNearMe &ensp;
-                <a href="http://medsnearme.herokuapp.com/shops"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h5>
-              <h5>
-                <em
-                  >HTML, CSS, Bootstrap, JavaScript, NodeJS, MongoDB, Heroku</em
-                >
-              </h5>
-              <h6>
-                With an aim to make medical facilities easily accessible to
-                everyone everywhere, I developed this website which enlists
-                basic information of all medical stores in a city.
-              </h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Meds-Near-Me</h5>
+                  <h6 class="card-subtitle text-muted">
+                    HTML, CSS, Bootstrap, JavaScript, NodeJS, MongoDB, Heroku
+                  </h6>
+                  <p class="card-text">
+                    With an aim to make medical facilities easily accessible to
+                    everyone everywhere, I developed this website which enlists
+                    basic information of all medical stores in a city.
+                  </p>
+                  <a
+                    class="btn btn-sm btn-outline-primary"
+                    href="http://medsnearme.herokuapp.com/shops"
+                    >View Project</a
+                  >
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 p-2">
-              <h5>
-                YelpCamp &ensp;
-                <a href="http://dummy-yelpcamp.herokuapp.com/campgrounds"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h5>
-              <h5>
-                <em
-                  >HTML, CSS, Bootstrap, JavaScript, NodeJS, MongoDB, Heroku</em
-                >
-              </h5>
-              <h6>
-                This website provides a list of all campgrounds available. I
-                have created it as a dummy project with random pictures and
-                data, just for Udemy's course "The Web Developer Bootcamp"
-              </h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Yelp-Camp</h5>
+                  <h6 class="card-subtitle text-muted">
+                    HTML, CSS, Bootstrap, JavaScript, NodeJS, MongoDB, Heroku
+                  </h6>
+                  <p class="card-text">
+                    This website provides a list of all campgrounds available. I
+                    have created it as a dummy project with random pictures and
+                    data, just for Udemy's course "The Web Developer Bootcamp"
+                  </p>
+                  <a
+                    class="btn btn-sm btn-outline-primary"
+                    href="http://dummy-yelpcamp.herokuapp.com/campgrounds"
+                    >View Project</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -243,84 +391,116 @@
     </div>
 
     <!-- Certifications & Achievements -->
-    <div class="fifth">
+    <div class="odd pt-3 pb-3" id="achievements">
       <div class="container" data-aos="zoom-out">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-medal"></i> Certifications & Achievements
+          <img style="height: 3em" src="img/trophy.gif" alt="trophy" />
+          Achievements
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 p-2">
-              <h5><strong>Online Courses</strong></h5>
-              <h6>
-                - Udemy : <em>The Web Developer Bootcamp</em> &ensp;
-                <a
-                  href="https://www.udemy.com/certificate/UC-3db92be7-82eb-44c1-b0d9-ecd8f78d99d3/"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
-              <h6>
-                - NPTEL :
-                <em>Programming, Data Structures & Algorithms using Python</em>
-                &ensp;
-                <a
-                  href="https://nptel.ac.in/noc/Ecertificate/?q=noc18-cs34/NPTEL18CS34S110800591810080279.jpg"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
-              <h6>
-                - NPTEL :
-                <em>Problem Solving through Programming in C</em> &ensp;
-                <a
-                  href="https://nptel.ac.in/noc/Ecertificate/?q=noc18-cs10/NPTEL18CS10S31801011810050659.jpg"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Online Courses</h5>
+                  <p class="card-text">
+                    - Udemy :
+                    <a
+                      style="color: blue; text-decoration: none"
+                      href="https://www.udemy.com/certificate/UC-3db92be7-82eb-44c1-b0d9-ecd8f78d99d3/"
+                      >The Web Developer Bootcamp</a
+                    >
+                    <br />
+                    - NPTEL :
+                    <a
+                      style="color: blue; text-decoration: none"
+                      href="https://nptel.ac.in/noc/Ecertificate/?q=noc18-cs34/NPTEL18CS34S110800591810080279.jpg"
+                      >Programming, Data Structures & Algorithms using Python</a
+                    >
+                    <br />
+                    - NPTEL :
+                    <a
+                      style="color: blue; text-decoration: none"
+                      href="https://nptel.ac.in/noc/Ecertificate/?q=noc18-cs10/NPTEL18CS10S31801011810050659.jpg"
+                      >Problem Solving through Programming in C</a
+                    >
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="col-sm-6 p-2">
-              <h5><strong>Coding Platform Profiles</strong></h5>
-              <h6>
-                - HackerRank :
-                <em>Golden Badge in Problem Solving, Python & Java</em> &ensp;
-                <a href="https://www.hackerrank.com/shadmanmd?hr_r=1"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
-              <h6>
-                - Codechef : <em>Highest Rating - 1618 (3 star)</em> &ensp;
-                <a href="https://www.codechef.com/users/shadmanmd"
-                  ><i class="btn btn-outline-primary fas fa-eye"></i
-                ></a>
-              </h6>
+            <div class="col-sm-6 p-3">
+              <div
+                data-aos="flip-up"
+                class="card shadow border border-start-0 border-end-0 border-bottom-0 border-primary border-5"
+              >
+                <div class="card-body">
+                  <h5 class="card-title">Coding Platform Profiles</h5>
+                  <p class="card-text">
+                    -
+                    <a
+                      style="color: blue; text-decoration: none"
+                      href="https://www.hackerrank.com/shadmanmd"
+                      >HackerRank</a
+                    >
+                    : Golden Badge in Problem Solving, Python & Java
+                    <br />
+                    -
+                    <a
+                      style="color: blue; text-decoration: none"
+                      href="https://www.codechef.com/users/shadmanmd"
+                      >Codechef</a
+                    >
+                    : Highest Rating - 1618 (3 star)
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Interests -->
-    <div class="sixth">
+    <!-- Personal Details -->
+    <div class="even pt-3 pb-3" id="personal">
       <div class="container" data-aos="zoom-in">
-        <hr />
         <h3 class="text-center">
-          <i class="fas fa-user-alt"></i> Personal Details
+          <img
+            style="height: 3em"
+            src="img/man_tipping_hand.gif"
+            alt="man_tipping_hand"
+          />
+          Personal Details
         </h3>
-        <hr />
         <div class="container">
           <div class="row">
-            <div class="col-sm-4 p-2">
-              <h5><strong>Date of Birth</strong></h5>
-              <h6><em>15th December</em></h6>
+            <div class="col-sm-4">
+              <h6>
+                <img
+                  style="height: 3em"
+                  src="img/birthday_cake.gif"
+                  alt="birthday_cake"
+                />
+                15th December
+              </h6>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>Current City</strong></h5>
-              <h6><em>Chittaranjan, West Bengal</em></h6>
+            <div class="col-sm-4">
+              <h6>
+                <img style="height: 3em" src="img/globe.gif" alt="globe" />
+                Chittaranjan, West Bengal
+              </h6>
             </div>
-            <div class="col-sm-4 p-2">
-              <h5><strong>Interests</strong></h5>
-              <h6><em>Web Development, Programming</em></h6>
+            <div class="col-sm-4">
+              <h6>
+                <img
+                  style="height: 3em"
+                  src="img/hot_beverage.gif"
+                  alt="hot_beverage"
+                />
+                Web Development, Programming
+              </h6>
             </div>
           </div>
         </div>
@@ -328,28 +508,51 @@
     </div>
 
     <!-- Thanks for visiting -->
-    <div class="seventh">
-      <div class="container">
-        <footer>
-          <small>Thanks for visiting!</small>
-        </footer>
+    <div class="seventh" id="contact">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-6">
+            <small>
+              Connect with me <br />
+              <a
+                style="color: white; text-decoration: none"
+                href="https://github.com/shadmanmd"
+                ><i class="fab fa-github"></i
+              ></a>
+              &ensp;
+              <a
+                style="color: white; text-decoration: none"
+                href="https://www.linkedin.com/in/mohammad-shadman-005729151"
+                ><i class="fab fa-linkedin-in"></i></a
+              >&ensp;
+              <a
+                style="color: white; text-decoration: none"
+                href="https://twitter.com/shadmanMd_in"
+                ><i class="fab fa-twitter"></i></a
+              >&ensp;
+              <a
+                style="color: white; text-decoration: none"
+                href="https://www.facebook.com/shadmanmd.in"
+                ><i class="fab fa-facebook-f"></i></a
+              >&ensp;
+              <a
+                style="color: white; text-decoration: none"
+                href="https://www.instagram.com/shadmanmd.in/"
+                ><i class="fab fa-instagram"></i></a
+              >&ensp;
+            </small>
+          </div>
+          <div class="col-md-6">
+            <small>&#169; Mohammad Shadman 2021</small>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- Bootstrap Script Tags -->
     <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
       crossorigin="anonymous"
     ></script>
 
@@ -362,6 +565,34 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+
+    <!-- Go to top -->
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
     </script>
   </body>
 </html>
